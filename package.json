@@ -1,15 +1,17 @@
 {
   "name": "shady-css-scoped-element",
+  "description": "ShadyCSS scoped element",
+  "repository": "github:jrobinson01/shady-css-scoped-element",
   "version": "0.0.1",
   "main": "index.js",
   "author": "jrobinsonmedia@gmail.com",
   "license": "MIT",
   "private": false,
   "scripts": {
-    "build": "terser ./src/shady-css-scoped-element.js --compress -o ./dist/shady-css-scoped-element.min.js"
+    "build": "terser ./src/shady-css-scoped-element.js --compress -o shady-css-scoped-element.min.js"
   },
   "files": [
-    "dist/shady-css-scoped-element.min.js"
+    "shady-css-scoped-element.min.js"
   ],
   "devDependencies": {
     "terser": "^4.6.3"
